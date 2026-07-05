@@ -4,6 +4,7 @@
   text-decoration: none;
   color: #000000;
 }
+
 .container {
   width: 1320px;
   /* background-color: #EEEEEE; */
@@ -13,6 +14,7 @@
 }
 nav {
   margin-top: 15px;
+  margin-bottom: 15px;
   background-color: #eeeeee;
   /* background-color: green; */
   border-radius: 10px 10px 0 0;
