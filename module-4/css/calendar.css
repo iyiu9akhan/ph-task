@@ -37,15 +37,70 @@
 .calendar .monthList {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 50px 40px;
+  margin-bottom: 70px;
 }
-.calendar .monthList .month {
+/* .calendar .monthList .month {
   border: 1px solid red;
-}
+} */
 .calendar .month .monthHeader {
   /* background-color: #2fa084; */
   background-color: #1f6f5f;
   padding: 8px 0;
   text-align: center;
-  border-radius: 0 0 80px 80px;
+  /* border-radius: 10px 10px 80px 80px; */
+  border-radius: 70px 70px 10px 10px;
+  position: relative;
+  height: 20px;
+}
+.calendar .month .monthHeader p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  height: 100%;
+  width: 60%;
+  background-color: #1f6f5f;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-content: center;
+  border: 7px solid #ffffff;
+  border-radius: 0 0 40px 40px;
+  /* border-radius:  50px 50px 0 0; */
+}
+.calendar .month .day {
+  border: 1px solid #1f6f5f;
+  border-radius: 3px;
+  margin-top: 8px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  margin-bottom: 20px;
+}
+.calendar .month ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.calendar .month ul li {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.calendar .month .offDay {
+  /* color: #1f6f5f; */
+  color: #E03F4F;
+}
+.calendar .month .date {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  gap: 10px;
+  font-weight: 500;
+  opacity: 0.8;
 }
