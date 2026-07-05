@@ -1,18 +1,19 @@
-.container .calendar {
+.container .calendar .banner {
   position: relative;
+  margin-bottom: 30px;
 }
-.container .calendar img {
+.container .calendar .banner img {
   width: 100%;
   height: 500px;
   object-fit: cover;
   display: block;
 }
-.calendar .yearName {
+.calendar .banner .yearName {
   position: absolute;
   /* bottom: -22px; */
   /* left: 50%; */
-  left: 80px;
-  top: 0;
+  left: 40px;
+  top: -10px;
   /* transform: translateX(-50%); */
   /* background-color: #1f6f5f; */
   /* padding: 8px 100px; */
@@ -28,9 +29,23 @@
   place-items: center;
   height: 100%;
 }
-.calendar .yearName p {
+.calendar .banner .yearName p {
   line-height: 210px;
   color: #ffffff;
   /* background-color: red; */
-
+}
+.calendar .monthList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.calendar .monthList .month {
+  border: 1px solid red;
+}
+.calendar .month .monthHeader {
+  /* background-color: #2fa084; */
+  background-color: #1f6f5f;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 0 0 80px 80px;
 }
