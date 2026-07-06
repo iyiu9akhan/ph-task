@@ -1,9 +1,13 @@
+.container{
+    padding-top: 1px;
+}
 .container .pricingSection {
   height: 90%;
   background-color: #1f6f5f;
   border-radius: 5px;
   /* position: relative; */
   padding: 100px 40px;
+  margin-top: 150px;
 }
 .container .pricingSection .pricingSection_heading {
   width: 700px;

@@ -1,6 +1,10 @@
+.container {
+  padding-top: 1px;
+}
 .container .calendar .banner {
   position: relative;
   margin-bottom: 30px;
+  margin-top: 150px;
 }
 .container .calendar .banner img {
   width: 100%;
@@ -93,7 +97,7 @@
 }
 .calendar .month .offDay {
   /* color: #1f6f5f; */
-  color: #E03F4F;
+  color: #e03f4f;
 }
 .calendar .month .date {
   display: grid;
