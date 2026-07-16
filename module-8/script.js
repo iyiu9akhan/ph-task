@@ -17,3 +17,13 @@ console.log("(6) using != :", firstPrice != thirdPrice);
 console.log("(7) using !== :", firstPrice !== secondPrice);
 console.log("(8) using !== :", firstPrice !== thirdPrice);
 // Not Equal & Strict Not Equal end
+
+// less than & greater than
+console.log("(9) using > : ", firstPrice > secondPrice);
+console.log("(10) using > : ", firstPrice < secondPrice);
+// less than & greater than
+
+// less than or equal
+console.log("(11) using <= :", firstPrice <= secondPrice);
+console.log("(12) using >= :", firstPrice >= thirdPrice);
+// greater than than or equal
