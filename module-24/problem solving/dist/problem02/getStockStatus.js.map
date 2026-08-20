@@ -1,0 +1,1 @@
+{"version":3,"file":"getStockStatus.js","sourceRoot":"","sources":["../../src/problem02/getStockStatus.ts"],"names":[],"mappings":";;AAAA,MAAM,cAAc,GAAG,CAAC,KAAa,EAAU,EAAE;IAC/C,IAAI,KAAK,KAAK,CAAC,EAAE,CAAC;QAChB,OAAO,cAAc,CAAC;IACxB,CAAC;SAAK,IAAI;QACZ,AADa,CAAA;AACb,CAAC,CAAC;AAEF,OAAO,CAAC,GAAG,CAAC,cAAc,CAAC,CAAC,CAAC,CAAC,CAAC"}
