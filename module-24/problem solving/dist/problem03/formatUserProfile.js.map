@@ -1,1 +1,1 @@
-{"version":3,"file":"formatUserProfile.js","sourceRoot":"","sources":["../../src/problem03/formatUserProfile.ts"],"names":[],"mappings":""}
+{"version":3,"file":"formatUserProfile.js","sourceRoot":"","sources":["../../src/problem03/formatUserProfile.ts"],"names":[],"mappings":";;AAMA,SAAS,iBAAiB,CAAC,IAAU;IACnC,uBAAuB;IACvB,OAAO,GAAG,IAAI,CAAC,IAAI,OAAO,IAAI,CAAC,GAAG,2BAA2B,IAAI,CAAC,IAAI,EAAE,CAAC;AAC3E,CAAC;AACD,OAAO,CAAC,GAAG,CACT,iBAAiB,CAAC;IAChB,IAAI,EAAE,OAAO;IACb,GAAG,EAAE,EAAE;IACP,IAAI,EAAE,OAAO;CACd,CAAC,CACH,CAAC"}
