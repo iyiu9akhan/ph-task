@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nature's platter</title>
+    <!-- tailwind css anchored here  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- fontawesome anchored here -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+
+    <!-- google font anchored here  -->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
       body {
@@ -18,22 +23,36 @@
   </head>
   <body>
     <div class="container mx-auto max-w-[1320px]">
+      <!-- header section anchored here  -->
       <header>
         <nav class="mt-6 flex justify-between items-center">
           <img src="./source/navbar/Vector.png" alt="header logo" />
-          <div class="nav-items">
-            <a href="#">product</a>
-            <a href="#">services</a>
-            <a href="#">contact us</a>
+          <div
+            class="nav-items text-[20px] text-[#111111] flex gap-8 capitalize"
+          >
+            <a href="#" class="hover:text-[#179800] transition-all duration-300">product</a>
+            <a href="#" class="hover:text-[#179800] transition-all duration-300">services</a>
+            <a href="#" class="hover:text-[#179800] transition-all duration-300">contact us</a>
           </div>
-          <div class="items-btn flex items-center gap-4">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-plus"></i>
-            <div class="items-login-btn">login</div>
-            <div class="items-login-btn">register</div>
+          <div class="items-btn flex items-center gap-[24px]">
+            <i class="fa-solid fa-magnifying-glass text-[24px] cursor-pointer hover:text-[#179800] transition-all duration-300"></i>
+            <i class="fa-solid fa-cart-plus text-[24px] cursor-pointer hover:text-[#179800] transition-all duration-300"></i>
+            <div class="flex gap-[12px]">
+              <div
+                class="items-login-btn px-[30px] py-[10px] border-1 border-[#179800] cursor-pointer rounded-[8px] text-[20px] capitalize hover:bg-[#179800] hover:text-[#ffffff] hover:border-1 hover:border-[#179800] transition-all duration-300"
+              >
+                login
+              </div>
+              <div
+                class="items-login-btn px-[30px] py-[10px] border-1 border-[#179800] cursor-pointer rounded-[8px] text-[20px] capitalize bg-[#179800] text-[#ffffff] hover:bg-white hover:text-[#111111] hover:border-1 hover:border-[#179800] transition-all duration-300"
+              >
+                register
+              </div>
+            </div>
           </div>
         </nav>
       </header>
+      <!-- header section released here  -->
     </div>
   </body>
 </html>
