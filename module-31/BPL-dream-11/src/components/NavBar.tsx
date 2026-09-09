@@ -2,7 +2,11 @@ import Container from "./Container";
 import header_logo from "../assets/navbar/header_logo.png";
 import header_coin from "../assets/navbar/header_coin.png";
 
-function NavBar() {
+interface navBarPropsType {
+  dollar : number
+}
+
+function NavBar({dollar}:navBarPropsType) {
   return (
     <>
       <Container>
@@ -23,8 +27,8 @@ function NavBar() {
                 schedules
               </a>
             </div>
-            <div className="header-menu-coin flex items-center gap-2.5 px-5 py-4 rounded-xl border border-[#131313]/10">
-              <p className="font-semibold text-[16px] capitalize">0 coin</p>
+            <div className="header-menu-coin flex items-center justify-end gap-3 px-5 py-4 rounded-xl border border-[#131313]/10 w-37">
+              <p className="font-semibold text-[16px] capitalize">{dollar} coin</p>
               <img src={header_coin} alt="header_coin" />
             </div>
           </div>
