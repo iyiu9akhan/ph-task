@@ -12,7 +12,7 @@ interface bannerProps {
 }
 
 function Banner({ claimDollar, dollar }: bannerProps) {
-  const isDisabled = dollar >= 5000;
+  const isDisabled = dollar >= 1000;
   return (
     <>
       <Container>
@@ -34,7 +34,7 @@ function Banner({ claimDollar, dollar }: bannerProps) {
             onClick={isDisabled ? undefined : claimDollar}
           >
             <span className="block font-primary font-bold text-[16px] text-[#131313] px-5 py-3.5 capitalize bg-[#E7FE29] rounded-xl w-50 text-center">
-              {isDisabled ? "Already Claimed" : "Claim Free Dollar"}
+              {isDisabled ? "Already Claimed" : "Claim Free Coin"}
             </span>
           </a>
         </div>

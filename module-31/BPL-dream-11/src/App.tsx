@@ -4,7 +4,7 @@ import Banner from "./components/Banner";
 import NavBar from "./components/NavBar";
 
 function App() {
-  const [dollar, setDollar] = useState(0);
+  const [dollar, setDollar] = useState(500);
   const handleClaimDollar = ():number => {
     const newDollar = dollar + 100;
     setDollar(newDollar);
