@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Banner from "./components/Banner";
 import NavBar from "./components/NavBar";
+import AvailablePlayers from "./components/AvailablePlayers";
+import Footer from "./components/Footer";
 
 function App() {
   const [dollar, setDollar] = useState(500);
@@ -14,6 +16,8 @@ function App() {
     <>
       <NavBar dollar={dollar} />
       <Banner claimDollar={handleClaimDollar} dollar={dollar} />
+      <AvailablePlayers/>
+      <Footer/>
     </>
   );
 }

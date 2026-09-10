@@ -11,7 +11,7 @@ function NavBar({dollar}:navBarPropsType) {
     <>
       <Container>
         <div className="header flex justify-between items-center mt-12.5 mb-6">
-          <img src={header_logo} alt="header_logo" />
+          <img src={header_logo} alt="header_logo" className="cursor-pointer"/>
           <div className="header-menu flex justify-between gap-12 items-center">
             <div className="header-menu-item capitalize font-primary text-[16px] text-[#131313]/70 flex gap-12">
               <a href="#" className="hover:text-[#131313]">
